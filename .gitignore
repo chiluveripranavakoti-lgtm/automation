@@ -1,0 +1,32 @@
+# Environment and Secrets
+.env
+.env.local
+
+# OAuth 2.0 Credentials and Tokens
+client_secret*.json
+credentials.json
+token.json
+*token*.json
+
+# SQLite Database and Cache
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# IDE & Editor artifacts
+.vscode/
+.idea/
+*.swp
